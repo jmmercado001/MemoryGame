@@ -1,0 +1,599 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ne",
+				"newTodo"
+			],
+			[
+				"ful",
+				"fullName"
+			],
+			[
+				"sr",
+				"script\tTag"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"box-s",
+				"box-sizing\tproperty"
+			],
+			[
+				"main",
+				"main-image"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"bg",
+				"bg-success"
+			],
+			[
+				"border",
+				"border-primary"
+			],
+			[
+				"nav",
+				"navbar-nav"
+			],
+			[
+				"navbar",
+				"navbar-light"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"ex",
+				"exampleFormControlFile1"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"backgr",
+				"background-size\tproperty"
+			],
+			[
+				"n",
+				"nav-item"
+			],
+			[
+				"btn-",
+				"btn-lg"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"background",
+				"background-attachment\tproperty"
+			],
+			[
+				"backg",
+				"background-size\tproperty"
+			],
+			[
+				"backgroun",
+				"background-repeat\tproperty"
+			],
+			[
+				"b",
+				"bolder\tfont-weight"
+			],
+			[
+				"wor",
+				"word-spacing\tproperty"
+			],
+			[
+				"ind",
+				"text-indent\tproperty"
+			],
+			[
+				"animation",
+				"animation-fill-mode\tproperty"
+			],
+			[
+				"animatio",
+				"animation-fill-mode\tproperty"
+			],
+			[
+				"an",
+				"animation-duration\tproperty"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"back",
+				"background-attachment\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"bac",
+				"background-repeat\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"r",
+				"rgb()\tbackground-color"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"ext",
+				"extra-expanded\tfont-stretch"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"f",
+				"fieldset\tTag"
+			],
+			[
+				"coffe",
+				"coffee_bean"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"se",
+				"second_hit"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"border-",
+				"border-width\tproperty"
+			],
+			[
+				"border-top",
+				"border-top\tproperty"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"nu",
+				"num2"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"new",
+				"new_alien"
+			],
+			[
+				"pop",
+				"population"
+			],
+			[
+				"su",
+				"sum_add"
+			],
+			[
+				"ret",
+				"return_day"
+			],
+			[
+				"car",
+				"car_type"
+			],
+			[
+				"st",
+				"str1"
+			],
+			[
+				"ar",
+				"artist"
+			],
+			[
+				"cl",
+				"CLEAR"
+			],
+			[
+				"cart",
+				"cart2"
+			],
+			[
+				"pla",
+				"player_1"
+			],
+			[
+				"pal",
+				"player_wins"
+			],
+			[
+				"player_",
+				"player_wins"
+			],
+			[
+				"com",
+				"computer_wins"
+			],
+			[
+				"pl",
+				"player_wins"
+			],
+			[
+				"play",
+				"play_again"
+			],
+			[
+				"ran",
+				"ran_num"
+			],
+			[
+				"p",
+				"player_2"
+			],
+			[
+				"s",
+				"scissors"
+			],
+			[
+				"plae",
+				"player_1"
+			],
+			[
+				"player",
+				"player_1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list pak",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/juanmercado/Desktop/Udacity_Projects/fend-project-memory-game-master/img/geometry2.png",
+		"/Users/juanmercado/Desktop/Udemy Front End Web/Udemy JS/js_stalker.html",
+		"/Users/juanmercado/Desktop/Udemy Front End Web/Udemy JS/script.js",
+		"/Users/juanmercado/Desktop/Udacity_Projects/Udacity Site Clone/app.js",
+		"/Users/juanmercado/Portfolio/portfolio2.css",
+		"/Users/juanmercado/Portfolio/portfolio2.html",
+		"/Users/juanmercado/Portfolio/portfolio.html",
+		"/Users/juanmercado/Portfolio/main.css",
+		"/Users/juanmercado/Downloads/Start 4/index.html",
+		"/Users/juanmercado/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Users/juanmercado/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/juanmercado/Downloads/practice-keyboard-shortcuts 3/index.html",
+		"/Users/juanmercado/newRusty.html",
+		"/Users/juanmercado/newTable.html",
+		"/Users/juanmercado/newPractice.html",
+		"/Users/juanmercado/rusty.html",
+		"/Users/juanmercado/thingsIveLearned.html",
+		"/Users/juanmercado/registration_form.html",
+		"/Users/juanmercado/portfolio.html",
+		"/Users/juanmercado/h.html",
+		"/Users/juanmercado/h.css",
+		"/Users/juanmercado/bootstrap4flex.html",
+		"/Users/juanmercado/new_gallery.html",
+		"/Users/juanmercado/bootstrap_gallery.css",
+		"/Users/juanmercado/bootstrap_gallery.html",
+		"/Users/juanmercado/gridsys.html",
+		"/Users/juanmercado/bootstrp.css",
+		"/Users/juanmercado/bootstrapbasic.html",
+		"/Users/juanmercado/navbar.html",
+		"/Users/juanmercado/practice.html",
+		"/Users/juanmercado/practice.css",
+		"/Users/juanmercado/font.html",
+		"/Users/juanmercado/font.css",
+		"/Users/juanmercado/boxes.html",
+		"/Users/juanmercado/boxes.css",
+		"/Users/juanmercado/tictactoe.html",
+		"/Users/juanmercado/tic.css",
+		"/Users/juanmercado/boxstyle.css",
+		"/Users/juanmercado/boxmodel.html",
+		"/Users/juanmercado/inheritance.html",
+		"/Users/juanmercado/marisol.html",
+		"/Users/juanmercado/selectors.css",
+		"/Users/juanmercado/demo.html",
+		"/Users/juanmercado/Desktop/app.css",
+		"/Users/juanmercado/Desktop/aboutme.html",
+		"/Users/juanmercado/Desktop/marisol.css",
+		"/Users/juanmercado/firstPage.html",
+		"/Users/juanmercado/table.html",
+		"/Users/juanmercado/pokemondata.html",
+		"/Users/juanmercado/forms.html",
+		"/Users/juanmercado/radio_select_dropdown.html",
+		"/Users/juanmercado/coin_flip.py",
+		"/Users/juanmercado/function3.py",
+		"/Users/juanmercado/practice2.py",
+		"/Users/juanmercado/pj18.py",
+		"/Users/juanmercado/lambda.py",
+		"/Users/juanmercado/function2.py",
+		"/Users/juanmercado/button.py",
+		"/Users/juanmercado/function1.py",
+		"/Users/juanmercado/dict_practice.py",
+		"/Users/juanmercado/dictionary2.py",
+		"/Users/juanmercado/dict_comp.py",
+		"/Users/juanmercado/play_list.py",
+		"/Users/juanmercado/dictionary.py",
+		"/Users/juanmercado/nested_list.py",
+		"/Users/juanmercado/list_comp.py",
+		"/Users/juanmercado/listv2.py",
+		"/Users/juanmercado/list.py",
+		"/Users/juanmercado/while_break.py",
+		"/Users/juanmercado/paper_rockv3.py",
+		"/Users/juanmercado/paper_rockv2.py",
+		"/Users/juanmercado/paper_rock.py",
+		"/Users/juanmercado/Random_Choice.py",
+		"/Users/juanmercado/while_saying.py",
+		"/Users/juanmercado/while_happy.py",
+		"/Users/juanmercado/whilev2.py",
+		"/Users/juanmercado/while_random.py",
+		"/Users/juanmercado/forv2.py",
+		"/Users/juanmercado/for.py",
+		"/Users/juanmercado/guessing_game.py",
+		"/Users/juanmercado/while_randomv2.py",
+		"/Users/juanmercado/Nested.py",
+		"/Users/juanmercado/truthiness.py",
+		"/Users/juanmercado/Convertor.py",
+		"/Users/juanmercado/input_practice.py",
+		"/Users/juanmercado/operators.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/boxes.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 140.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
