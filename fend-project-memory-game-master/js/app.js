@@ -73,9 +73,8 @@ function clickCard(card){
 	 		}
 	 		else {
 	 			card.classList.add('open', 'show', 'duplicate');
-	 			if(time ===null){
+	 			if(!time){
 	 				timer();
-	 				// time = setInterval(timer, 1000);
 	 			}
 	 			cardShowing.push(this);
 	 			
@@ -135,17 +134,21 @@ function timer() {
 function showTimer() {
 	var mins = Math.floor(time / 60);
 	var seconds = time % 60;
-
+	console.log(seconds)
+	console.log(mins)
 	 if (seconds < 10) {
-        timer.innerHTML = `${mins}:0${seconds}`;
+        sec.innerHTML = mins + `:0` + seconds;
     } else {
-        timer.innerHTML = `${mins}:${seconds}`;
+        sec.innerHTML = mins + `:` + seconds;
     }
 }
 
 
 function stopTimer() {
-	clearInterval(tickToc);
+	clearInterval(time);
+	mins =0;
+	seconds =0;
+	
 
 }
 
@@ -166,21 +169,25 @@ function gameOver(){
 //Player win function
 function youWon(){
 	// modal.classList.add("show"); //MODAL********
+	// stopTimer();
 	openModal();
 	closeModal();
 }
 
 
 function openModal(){
+
 	modal.style.display = 'block';
 	// let starRating = document.querySelector('.stars').innerHTML;
-	var modMoves = document.getElementsByClassName('total-moves');
+	var modMoves = document.querySelector('.total-moves');
 	// var modRate = document.getElementsByClassName('total-rating');
-	var modTime = document.getElementsByClassName('total-time');
+	var modTime = document.querySelector('.total-time');
 
-	modMoves.innerHTML = `Moves:  ${moves}`;
-	modTime.innerHTML = `Time:`  + time;
-
+	modMoves.innerHTML = moves;
+	modTime.innerHTML = seconds;
+	// modTime.innerHTML =  mins + `:` + seconds;
+	
+	
 }
 
 
@@ -190,6 +197,7 @@ function openModal(){
 //restarts game when restart arrow clicked
 function reStart(){
 	playAgain.addEventListener('click', function(){
+		stopTimer();
 		gameReset();
 		gameStart();
 		console.log("restart");
@@ -207,13 +215,14 @@ function addMoves() {
 
 // Calls reset() function (hides modal and restarts game) with user clicks "play again" button in modal
 modalButton.addEventListener('click', reset);
+closeMod.addEventListener('click', closeModal);
+
 
 // Closes MODAL ******* upon clicking its close icon
 function closeModal() {
-  closeMod.addEventListener('click', function() {
+    // gameReset();
     modal.style.display = 'none';
-   
-  });
+  
 }
 
 // MODAL ***********Called when user hits "play again" button
@@ -227,7 +236,7 @@ function gameReset(){
 	cardSet.innerHTML = "";
 	matchingCards = [];
 	moves = 0;
-	time = null;
+	time =0;
 	playerMoves.innerHTML = null;
 	stars[1].style.display = '';
 	stars[2].style.display = '';
