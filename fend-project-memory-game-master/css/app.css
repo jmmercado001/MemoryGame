@@ -142,16 +142,16 @@ h1 {
     color: #333;
 }
 
-.game-stats{
+/*.game-stats {
     display: flex;
     flex-direction: column;
     align-items: right;
     padding: 1rem;
     border-bottom: 1px solid gray;
 
-}
+}*/
 
-.close{
+.close {
     color: #1db9f2;
     float: right;
     font-size: 30px;
