@@ -18,10 +18,11 @@ var playerMoves = document.querySelector(".moves");
 var playAgain = document.querySelector(".restart");
 var sec = document.querySelector(".timer");
 var stars = document.querySelectorAll(".fa-star");
+var modalStars = document.querySelector(".stars").innerHTML;
 var modal = document.getElementsByClassName('modal')[0];
 var modalButton = document.querySelector('.play-again');
 var closeMod = document.querySelector('.close');
-
+var modStars;
 let cardShowing = [];
 let matchingCards = [];
 var startSeconds;
@@ -30,7 +31,8 @@ let time = null;
 let tickToc;
 
 
-shuffle(cardDeck);
+
+// shuffle(cardDeck);
 reStart();
 gameStart();
 
@@ -108,15 +110,19 @@ function rating(){
     	for (i = 0; i < 3; i++) {
       		if (i > 1) {
         		stars[i].style.display = 'none';
+        		
       		}
     	}
+    	return modStars;
   	}
   	else if (moves > 15) {
     	for (i = 0; i < 3; i++) {
       		if (i > 0) {
         		stars[i].style.display = 'none';
+        		
       		}
     	}
+    	
   	}
 
 }
@@ -145,16 +151,17 @@ function showTimer() {
 
 
 function stopTimer() {
-	clearInterval(time);
-	mins =0;
-	seconds =0;
+	clearInterval(tickToc);
+	// time =0;
+	// mins =0;
+	// seconds =0;
 	
-
 }
 
 //Game over function
 function gameOver(){
 	if(matchingCards.length === cardDeck.length){
+		stopTimer();
 		youWon();
 		console.log("you win");
 		console.log(moves);
@@ -169,9 +176,10 @@ function gameOver(){
 //Player win function
 function youWon(){
 	// modal.classList.add("show"); //MODAL********
-	// stopTimer();
+	
 	openModal();
-	closeModal();
+	stopTimer();
+	// closeModal();
 }
 
 
@@ -180,14 +188,16 @@ function openModal(){
 	modal.style.display = 'block';
 	// let starRating = document.querySelector('.stars').innerHTML;
 	var modMoves = document.querySelector('.total-moves');
-	// var modRate = document.getElementsByClassName('total-rating');
+	// var modRate = document.querySelector('.total-rating');
 	var modTime = document.querySelector('.total-time');
 
 	modMoves.innerHTML = moves;
-	modTime.innerHTML = seconds;
-	// modTime.innerHTML =  mins + `:` + seconds;
+	modTime.innerHTML = sec.innerHTML;
+	// modRate.innerHTML = modalStars.innerHTML;
+	document.getElementsByClassName('total-rating')[0].innerHTML= modalStars;
+
 	
-	
+
 }
 
 
@@ -236,8 +246,9 @@ function gameReset(){
 	cardSet.innerHTML = "";
 	matchingCards = [];
 	moves = 0;
+	sec.innerHTML ="0:00";
 	time =0;
-	playerMoves.innerHTML = null;
+	playerMoves.innerHTML = 0;
 	stars[1].style.display = '';
 	stars[2].style.display = '';
 }
